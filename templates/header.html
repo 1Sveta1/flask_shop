@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block title %} {% endblock %}
+</head>
+<body>
 <div  style="background-color: #a0c0f0; width: 1700px; height: 100px;  margin-top: -10px;   margin-left: -5px;  box-shadow: 1px 1px 8px #444; ">
     <div>
     <p style="margin-left: 20em; padding-top: 2em; "><b>Язык</b></p>
@@ -27,5 +33,8 @@
                             <p style="padding-left: 33em; margin-top: -2em; font-size:20">Поиск</p>
                             <img src="search.png" style="width: 25; height: 25; margin-left: 45em; margin-top: -2.7em; border-radius: 50%">
         </div>
+      {% block body %} {% endblock %}
+</body>
+</html>
 
 

@@ -1,9 +1,10 @@
+{% extends 'header.html' %}
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-</head>
+{% block title%}
+    <title>Shop SL</title>
+{% endblock%}
+
+{% block body %}
 <body>
 <style>
         .category-block-text{
@@ -19,7 +20,7 @@
 
                         <h4 style="margin-top: 3em; margin-left:25em; font-size: 30">Рубрики</h4>
 
-                    </div>
+</div>
 
                     <table style="padding-top: 1em; text-align: center; width: 100%;" id="table">
                         <tr >
@@ -45,7 +46,8 @@
                             <td>
                                 <a href="http://localhost/avto.php?category=2">
                                     <img src="02078104.jpg" style="width: 150; height: 150; margin-left: 3em; margin-top: 3em; border-radius: 50%">
-                                    <b class="category-block-text">Животные</b></td>
+                                    <b class="category-block-text">Животные</b
+                            </td>
                                 </a>
                             <td>
                                 <a id="kids" href="http://localhost/avto.php?category=6" >
@@ -61,7 +63,5 @@
                             </td>
                         </tr>
                     </table>
-
-</div>
 </body>
-</html>
+{% endblock %}
