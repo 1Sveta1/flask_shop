@@ -32,38 +32,40 @@
                     <table style="padding-top: 1em; text-align: center; margin-left: 6em;" id="table">
                         <tr>
                              <td>
-                             <a href="http://127.0.0.1:5000/menu/1">
+                             <a href="http://127.0.0.1:5000/category/1/">
                                <img src="{{ url_for('static', filename='otdam_darom.jpeg', ) }}" style="width: 150px; height: 150px; margin-left: 4em; margin-top: 3em; border-radius: 50%" >
-                                <b class="category-block-text">Отдам даром</b>
+                                <b classc="category-block-text">Отдам даром</b>
                             </a>
                             </td>
                             <td>
-                                <a href="http://127.0.0.1:5000/menu/2">
+                                {{data}}
+                                {{pr}}
+                                <a href="http://127.0.0.1:5000/category/2/">
                                     <img src="{{ url_for('static', filename='phone.jpeg') }}" style="width: 150px; height: 150px; margin-left: 4em; margin-top: 3em; border-radius: 50%" >
                                     <b class="category-block-text">Электроника</b>
                                 </a>
                             </td>
                             <td>
-                                <a href="http://127.0.0.1:5000/menu/3">
+                                <a href="http://127.0.0.1:5000/category/3/">
                                     <img src="{{ url_for('static', filename='avto.jpeg') }}" style="width: 150px; height: 150px; margin-left: 4em; margin-top: 3em; border-radius: 50%" >
                                     <b class="category-block-text">Авто</b>
                                 </a>
 
                             </td>
                             <td>
-                                <a href="http://127.0.0.1:5000/menu/4">
+                                <a href="http://127.0.0.1:5000/category/4/">
                                     <img src="{{ url_for('static', filename='dog.jpeg') }}" style="width: 150px; height: 150px; margin-left: 4em; margin-top: 3em; border-radius: 50%" >
                                     <b class="category-block-text">Животные</b>
                                 </a>
                              </td>
                             <td>
-                                <a id="kids" href="http://127.0.0.1:5000/menu/5" >
+                                <a id="kids" href="http://127.0.0.1:5000/category/5/" >
                                 <img src="{{ url_for('static', filename='kids.jpeg') }}" style="width: 150px; height: 150px; margin-left: 4em; margin-top: 3em; border-radius: 50%" >
                                     <b class="category-block-text">Детские товары</b>
                                 </a>
                             </td>
                             <td>
-                                <a href="http://127.0.0.1:5000/menu/6">
+                                <a href="http://127.0.0.1:5000/category/6/">
                                     <img src="{{ url_for('static', filename='help.jpeg') }}" style="width: 150px; height: 150px; margin-left: 4em; margin-top: 3em; border-radius: 50%" >
                                     <b class="category-block-text">Взаимопомощь</b>
                                 </a>
